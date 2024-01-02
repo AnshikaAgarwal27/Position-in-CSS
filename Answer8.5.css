@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+/* .container{
+    height:400px;
+    width:400px;
+} */
+.box1{
+    background-color: aqua;
+    height:100px;
+    width:100px;
+    display:inline-block;
+    position: absolute;
+    text-align: center;
+}
+.box2{
+    background-color:brown;
+    height:100px;
+    width:100px;
+    display:inline-block;
+    z-index: 1;
+    position: absolute;
+    top:50px;
+    left:50px;
+    text-align: center;
+}
+.box3{
+    background-color:chartreuse;
+    height:100px;
+    width:100px;
+    display:inline-block;
+    z-index: -1;
+    position: relative;
+    top:100px;
+    left:100px;
+    text-align: center;
+}
